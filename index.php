@@ -25,7 +25,7 @@
                     ?>
                 </div>
 
-                <div class="col-md-10 d-flex align-items-end">
+                <div class="col-md-10 d-flex justify-content-end">
                     <div class="col-md-5">
                         <?php
                         include("add.php");
