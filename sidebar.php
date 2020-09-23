@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <style>
 body {
   font-family: "Lato", sans-serif;
@@ -19,6 +15,7 @@ body {
   background-color: #111;
   overflow-x: hidden;
   padding-top: 20px;
+  z-index: 1001;
 }
 
 /* Style the sidenav links and the dropdown button */
@@ -73,8 +70,7 @@ body {
   .sidenav a {font-size: 18px;}
 }
 </style>
-</head>
-<body>
+
 
 <div class="sidenav">
   <a href="#about">Menu</a>
@@ -115,5 +111,3 @@ for (i = 0; i < dropdown.length; i++) {
 }
 </script>
 
-</body>
-</html> 
