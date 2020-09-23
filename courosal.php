@@ -1,11 +1,11 @@
 
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner" style="height:500px;">
+  <div class="carousel-inner" style="height:500px; width:100%">
   <div class="carousel-item active">
       <img class="d-block w-100" src="images/23-232752_beautiful-sri-lanka-archive-sri-lanka-tourism-hd.jpg" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/sri-lanka-photos-0152.jpg.optimal.jpg" alt="Second slide">
+      <img style = "width:100%;" class="d-block w-100" src="images/sri-lanka-photos-0152.jpg.optimal.jpg" alt="Second slide">
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="images/wp1857983.jpg" alt="Third slide">
