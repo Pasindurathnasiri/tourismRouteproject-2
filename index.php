@@ -25,20 +25,13 @@
                     ?>
                 </div>
             </div>
-                <div class="col-md-10 d-flex justify-content-end">
-                    <div class="col-md-5">
-                        <?php
+            <div class="col-md-12 d-flex align-items-center justify-content-center" >
+                <div style="height: 100%; width: 75%">
+                    <?php
                         include("add.php");
-                        ?>
-                    </div>
-
-                    <div class="col-md-5">
-                        <?php
-                        include("add.php");
-                        ?>
-                    </div>
-                    
+                    ?>
                 </div>
+            </div>
             
         </div>
     </body>
