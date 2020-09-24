@@ -18,13 +18,13 @@
                 ?>
             </div>
 
-            <div class="relative row " style="height: fit-content;">
-                <div class="col-md-2">
+            <div>
+                <div>
                     <?php
                     include("sidebar.php");
                     ?>
                 </div>
-
+            </div>
                 <div class="col-md-10 d-flex justify-content-end">
                     <div class="col-md-5">
                         <?php
@@ -39,7 +39,7 @@
                     </div>
                     
                 </div>
-            </div>
+            
         </div>
     </body>
 </html>
