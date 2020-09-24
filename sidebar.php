@@ -14,7 +14,6 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#">Hotels</a>
           <a class="dropdown-item" href="#">Camping</a>
-          <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">....</a>
         </div>
       </li>
@@ -25,7 +24,6 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#">Tuk Tuk</a>
           <a class="dropdown-item" href="#">Car</a>
-          <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Van</a>
         </div>
       </li>
