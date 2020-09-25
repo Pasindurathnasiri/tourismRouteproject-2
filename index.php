@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="col-md-12 d-flex align-items-center justify-content-center" >
-                <div style="height: 100%; width: 75%">
+                <div style="height: 100%; width: 50%">
                     <?php
                         include("add.php");
                     ?>
