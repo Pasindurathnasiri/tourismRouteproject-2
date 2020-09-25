@@ -18,28 +18,21 @@
                 ?>
             </div>
 
-            <div class="relative row " style="height: fit-content;">
-                <div class="col-md-2">
+            <div>
+                <div>
                     <?php
                     include("sidebar.php");
                     ?>
                 </div>
-
-                <div class="col-md-10 d-flex justify-content-end">
-                    <div class="col-md-5">
-                        <?php
+            </div>
+            <div class="col-md-12 d-flex align-items-center justify-content-center" >
+                <div style="height: 100%; width: 50%">
+                    <?php
                         include("add.php");
-                        ?>
-                    </div>
-
-                    <div class="col-md-5">
-                        <?php
-                        include("add.php");
-                        ?>
-                    </div>
-                    
+                    ?>
                 </div>
             </div>
+            
         </div>
     </body>
 </html>
