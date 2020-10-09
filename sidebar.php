@@ -54,8 +54,8 @@
           Eat
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Restuarants</a>
-          <a class="dropdown-item" href="#">Pub</a>
+          <a class="dropdown-item" href="resturant.php">Restuarants</a>
+          <a class="dropdown-item" href="pub.php">Pub</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -63,8 +63,8 @@
           Shoppings
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Clothes</a>
-          <a class="dropdown-item" href="#">Super Markets</a>
+          <a class="dropdown-item" href="clothes.php">Clothes</a>
+          <a class="dropdown-item" href="supermarket.php">Super Markets</a>
         </div>
       </li>
     </ul>
