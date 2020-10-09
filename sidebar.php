@@ -54,7 +54,7 @@
           Eat
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="resturant.php">Restuarants</a>
+          <a class="dropdown-item" href="./Eat/resturant.php">Restuarants</a>
           <a class="dropdown-item" href="pub.php">Pub</a>
         </div>
       </li>
