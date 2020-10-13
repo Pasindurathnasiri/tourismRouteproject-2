@@ -1,6 +1,6 @@
 
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner" style="height:20%; width:100%">
+  <div class="carousel-inner" style="width:100%">
   <div class="carousel-item active">
       <img class="d-block w-100" src="images/23-232752_beautiful-sri-lanka-archive-sri-lanka-tourism-hd.jpg" alt="First slide" id = "images">
     </div>
