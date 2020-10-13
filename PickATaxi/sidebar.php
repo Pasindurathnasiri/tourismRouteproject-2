@@ -12,9 +12,9 @@
           Booking
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="Bookings\hotels.php">Hotels</a>
-          <a class="dropdown-item" href="Bookings\wildlifehotels.php">WildLife Bunglows</a>
-          <a class="dropdown-item" href="Bookings\campsite.php">Camping Sites</a>
+          <a class="dropdown-item" href="hotels.php">Hotels</a>
+          <a class="dropdown-item" href="wildlifehotels.php">WildLife Bunglows</a>
+          <a class="dropdown-item" href="campsite.php">Camping Sites</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -22,9 +22,9 @@
           Pick a Taxi
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="PickATaxi\tuktuk.php">Tuk Tuk</a>
-          <a class="dropdown-item" href="PickATaxi\car.php">Car</a>
-          <a class="dropdown-item" href="PickATaxi\van.php">Van</a>
+          <a class="dropdown-item" href="tuktuk.php">Tuk Tuk</a>
+          <a class="dropdown-item" href="car.php">Car</a>
+          <a class="dropdown-item" href="van.php">Van</a>
         </div>
       </li>
       <li class="nav-item dropdown">
