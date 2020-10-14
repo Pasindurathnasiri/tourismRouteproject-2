@@ -11,12 +11,12 @@
     </head>
     
     <body style="background-color: silver;">
-        <div class="col-md-12 d-flex justify-content-center">
+        <div class="col-md-12 d-flex justify-content-around">
             <?php
                 include("courosal.php");
             ?>
         </div>
-        <div>
+        <div id="navbar">
             <?php
                 include("sidebar.php");
             ?>
@@ -29,4 +29,32 @@
             </div>
         </div>
     </body>
+<!-- 
+    <script>
+        // When the user scrolls down 20px from the top of the document, slide down the navbar
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() 
+        {
+            if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) 
+            {
+                document.getElementById("navbar").style.top = "0";
+            } 
+            else
+            {
+                document.getElementById("navbar").style.top = "400px";
+            }
+        }
+    </script>
+
+    <style>
+
+        #navbar {
+        background-color: #333;
+        top: 600px;
+        width: 100%;
+        display: block;
+        transition: top 0.3s;
+        }
+    </style> -->
 </html>
