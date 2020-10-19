@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="width:100%">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">Menu</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -12,9 +12,9 @@
           Booking
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="Bookings\hotels.php">Hotels</a>
-          <a class="dropdown-item" href="Bookings\wildlifehotels.php">WildLife Bunglows</a>
-          <a class="dropdown-item" href="Bookings\campsite.php">Camping Sites</a>
+          <a class="dropdown-item" href="hotels.php">Hotels</a>
+          <a class="dropdown-item" href="wildlifehotels.php">WildLife Bunglows</a>
+          <a class="dropdown-item" href="campsite.php">Camping Sites</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -22,9 +22,9 @@
           Pick a Taxi
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="PickATaxi\tuktuk.php">Tuk Tuk</a>
-          <a class="dropdown-item" href="PickATaxi\car.php">Car</a>
-          <a class="dropdown-item" href="PickATaxi\van.php">Van</a>
+          <a class="dropdown-item" href="tuktuk.php">Tuk Tuk</a>
+          <a class="dropdown-item" href="car.php">Car</a>
+          <a class="dropdown-item" href="van.php">Van</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -32,9 +32,9 @@
           Other Modes
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="/tourismRouteproject-2/Other Modes/Boat.php">Boats</a>
-          <a class="dropdown-item" href="/tourismRouteproject-2/Other Modes/Safari Jeeps.php">Safari Jeeps</a>
-          <a class="dropdown-item" href="/tourismRouteproject-2/Other Modes/Air.php">Air</a>
+          <a class="dropdown-item" href="#">Boats</a>
+          <a class="dropdown-item" href="#">Safari Jeeps</a>
+          <a class="dropdown-item" href="#">Air</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -42,10 +42,10 @@
           Destinations
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="/tourismRouteproject-2/Destinations/Wild Life.php">Wild life</a>
-          <a class="dropdown-item" href="/tourismRouteproject-2/Destinations/Beaches.php">Beaches</a>
-          <a class="dropdown-item" href="/tourismRouteproject-2/Destinations/Historical.php">Historical</a>
-          <a class="dropdown-item" href="/tourismRouteproject-2/Destinations/Waterfalls.php">Waterfalls</a>
+          <a class="dropdown-item" href="#">Wild life</a>
+          <a class="dropdown-item" href="#">Beaches</a>
+          <a class="dropdown-item" href="#">Historical</a>
+          <a class="dropdown-item" href="#">Waterfalls</a>
 
         </div>
       </li>
@@ -55,7 +55,7 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="./Eat/resturant.php">Restuarants</a>
-          <a class="dropdown-item" href="./Eat/pub.php">Pub</a>
+          <a class="dropdown-item" href="pub.php">Pub</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -63,8 +63,8 @@
           Shoppings
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="./Shoppings/clothes.php">Clothes</a>
-          <a class="dropdown-item" href="./Shoppings/supermarket.php">Super Markets</a>
+          <a class="dropdown-item" href="clothes.php">Clothes</a>
+          <a class="dropdown-item" href="supermarket.php">Super Markets</a>
         </div>
       </li>
     </ul>
