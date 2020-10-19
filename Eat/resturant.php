@@ -31,7 +31,11 @@
 <body class="hold-transition sidebar-mini layout-fixed">
   
 
-         
+<div>
+                <?php
+                include("../sidebar.php");
+                ?>
+            </div>
                       <form role="form">
                         <div class="card-body">
                           <div class="form-group">
@@ -59,6 +63,7 @@
                                 <thead>
                                 <tr role="row">
                                     <th class="sorting_asc" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Rendering engine: activate to sort column descending" style="width: 203.4px;">Reataurant</th>
+                                    <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" style="width: 262.6px;">Location</th>
                                     <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" style="width: 262.6px;">Open</th>
                                     <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Platform(s): activate to sort column ascending" style="width: 233px;">Close</th>
                                 </tr>
