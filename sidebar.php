@@ -1,6 +1,5 @@
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Menu</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+  <a class="navbar-brand" href="/tourismRouteproject-2">Home</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -32,9 +31,9 @@
           Other Modes
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Boats</a>
-          <a class="dropdown-item" href="#">Safari Jeeps</a>
-          <a class="dropdown-item" href="#">Air</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/Other Modes/Boat.php">Boats</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/Other Modes/Safari Jeeps.php">Safari Jeeps</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/Other Modes/Air.php">Air</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -42,10 +41,10 @@
           Destinations
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Wild life</a>
-          <a class="dropdown-item" href="#">Beaches</a>
-          <a class="dropdown-item" href="#">Historical</a>
-          <a class="dropdown-item" href="#">Waterfalls</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/Destinations/Wild Life.php">Wild life</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/Destinations/Beaches.php">Beaches</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/Destinations/Historical.php">Historical</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/Destinations/Waterfalls.php">Waterfalls</a>
 
         </div>
       </li>
