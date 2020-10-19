@@ -31,9 +31,9 @@
           Other Modes
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="./Other Modes/Boat.php">Boats</a>
-          <a class="dropdown-item" href="./Other Modes/Safari Jeeps.php">Safari Jeeps</a>
-          <a class="dropdown-item" href="./Other Modes/Air.php">Air</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/Other Modes/Boat.php">Boats</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/Other Modes/Safari Jeeps.php">Safari Jeeps</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/Other Modes/Air.php">Air</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -41,10 +41,10 @@
           Destinations
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="./Destinations/Wild Life.php">Wild life</a>
-          <a class="dropdown-item" href="./Destinations/Beaches.php">Beaches</a>
-          <a class="dropdown-item" href="./Destinations/Historical.php">Historical</a>
-          <a class="dropdown-item" href="./Destinations/Waterfalls.php">Waterfalls</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/Destinations/Wild Life.php">Wild life</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/Destinations/Beaches.php">Beaches</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/Destinations/Historical.php">Historical</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/Destinations/Waterfalls.php">Waterfalls</a>
 
         </div>
       </li>
