@@ -22,12 +22,41 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+  <div class="center glow">
+      <h1>Scroll Down</h1>
+      <h2>Scroll down to see the activity</h2>
+  </div>
 </div> 
 
 <style>
-#images{
-  width: inherit;
-  height: 500px;
-  object-fit: cover;
+  #images{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+  }
+
+  
+  .center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%)
+            
+        }
+        
+  .glow{
+            color: #fff;
+            text-align: center;
+            -webkit-animation: glow 3s ease-in-out infinite alternate;
+            -moz-animation: glow 3s ease-in-out infinite alternate;
+            animation: glow 3s ease-in-out infinite alternate;
+        }
+
+        @-webkit-keyframes glow {
+            to 
+            {
+                text-shadow: 0 0 20px #000, 0 0 20px #0000, 0 0 20px #0000;
+            }
+        }
 }
 </style>
