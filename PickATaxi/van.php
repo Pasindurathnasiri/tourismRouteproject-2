@@ -62,28 +62,28 @@
                 </div>
                 <div class="card text-center" style="width:80% padding:10px; margin:10px; ">
                   <div class="card-body">
-                    <h5 class="card-title">Hotel 1</h5>
+                    <h5 class="card-title">Van 1</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
                 </div>
                 <div class="card text-center" style="width:80% padding:10px; margin:10px;">
                   <div class="card-body">
-                    <h5 class="card-title">Hotel 2</h5>
+                    <h5 class="card-title">Van 2</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
                 </div>
                 <div class="card text-center" style="width:80% padding:10px; margin:10px;">
                   <div class="card-body">
-                    <h5 class="card-title">Hotel 3</h5>
+                    <h5 class="card-title">Van 3</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
                 </div>
                 <div class="card text-center" style="width:80% padding:10px; margin:10px;">
                   <div class="card-body">
-                    <h5 class="card-title">Hotel 4</h5>
+                    <h5 class="card-title">Van 4</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
