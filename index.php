@@ -28,7 +28,7 @@
                 include("login.php");
             ?>
         </div>
-            <div class="col-md-6" style="height: 100%; width: 75%">
+            <div class="col-md-4" style="height: 100%;">
                 <?php
                     include("add.php");
                 ?>
