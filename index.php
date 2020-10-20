@@ -32,7 +32,6 @@
         <!-- content start -->
         <div class="row" style="padding: 10px; margin: 0;">
             <div class="col-md-12  d-flex justify-content-between"  >
-                
 
                 <!-- login start -->
                 <div class="col-md-6">
