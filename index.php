@@ -10,7 +10,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     </head>
     
-    <body style="background-color: silver;font-family: Arial, Helvetica, sans-serif;">
+    <body style="font-family: Arial, Helvetica, sans-serif;">
         <div class="col-md-12 d-flex justify-content-around" style ="margin: 0; padding: 0;">
             <?php
                 include("courosal.php");
@@ -28,7 +28,7 @@
                 include("login.php");
             ?>
         </div>
-            <div class="col-md-4" style="height: 100%;">
+            <div class="col-md-3" style="height: 100%;">
                 <?php
                     include("add.php");
                 ?>

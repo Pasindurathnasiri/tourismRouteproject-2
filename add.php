@@ -74,7 +74,7 @@
 <style>
   img{
     width: 100%;
-    height: 250px;
+    height: 125px;
     object-fit: cover;
   }
 </style>
