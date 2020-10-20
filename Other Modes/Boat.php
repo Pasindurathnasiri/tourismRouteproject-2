@@ -11,23 +11,25 @@
     </head>
     <body>
         <div>
+        <!-- top bar -->
             <div>
                 <?php
                 include("../sidebar.php");
                 ?>
             </div>
             <br>    
-            
-            <h1>&nbsp;Boats</h1>
-        <!-- map -->
 
+            <!-- heading -->
+            <h1>&nbsp;Boats</h1>
+
+            <!-- map -->
             <div id="googleMap" style="width:100%;height:500px;"></div>
 
             <script>
             
                 function myMap() 
                 {
-                    
+                    // focusing map to srilanka
                     var mapProp= 
                     {
                         center:new google.maps.LatLng(7.8731,80.7718),
@@ -35,28 +37,31 @@
                     };
                     var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 
-                    
-                    
-
+                    // initializing geolocation method
                     if (navigator.geolocation) 
                     {
                         navigator.geolocation.getCurrentPosition(showPosition);
                     } 
-                
-
+                    
+                    // variables
                     var lat ;
                     var lan ;
                     
                     function showPosition(position) 
                     {
+                        // getting lat long
                         lat = position.coords.latitude;
                         lan = position.coords.longitude;
                         console.log(lat + "'" + lan);
+
+                        // positioning marker
                         var marker = new google.maps.Marker(
                         {
                             position: new google.maps.LatLng(lat,lan),
                             map: map,
                         });
+
+                        // infor on marker
                         var infowindow = new google.maps.InfoWindow(
                         {
                             content:"My Location"
@@ -78,11 +83,11 @@
                 
             </script>
 
+            <!-- include map -->
             <script src="https://maps.googleapis.com/maps/api/js?AIzaSyALVFbw-QwUdNkmunYR2Bt8BoVXhMTYgks&callback=myMap"></script>
 
-            <script>
+            <script> </script>
 
-</script>
         </div>
 
     </body>
