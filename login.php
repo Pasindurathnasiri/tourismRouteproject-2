@@ -51,8 +51,7 @@
     <link href="signin.css" rel="stylesheet">
   </head>
   <body class="text-center">
-   <div class="card">
-   <form class="form-signin"><br><br><br><br>
+   <div class="card"  style="background-color:black; color:gold; border-color: gold; border-width:5px;"><br><br><br><br>
   <h1 class="h3 mb-3 font-weight-normal">Sign In</h1>
   <label for="inputEmail" class="sr-only">Email address</label> 
   <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus> <br>
@@ -63,7 +62,7 @@
       <input type="checkbox" value="remember-me"> Remember me
     </label>
   </div>
-  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+  <button class="btn btn-lg btn-block" style="color:black; background-color:gold;" type="submit">Sign in</button>
  
 </form>
    </div>
