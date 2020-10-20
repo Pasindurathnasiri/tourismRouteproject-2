@@ -11,9 +11,9 @@
           Booking
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="Bookings\hotels.php">Hotels</a>
-          <a class="dropdown-item" href="Bookings\wildlifehotels.php">WildLife Bunglows</a>
-          <a class="dropdown-item" href="Bookings\campsite.php">Camping Sites</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/Bookings\hotels.php">Hotels</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/Bookings\wildlifehotels.php">WildLife Bunglows</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/Bookings\campsite.php">Camping Sites</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -21,9 +21,9 @@
           Pick a Taxi
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="PickATaxi\tuktuk.php">Tuk Tuk</a>
-          <a class="dropdown-item" href="PickATaxi\car.php">Car</a>
-          <a class="dropdown-item" href="PickATaxi\van.php">Van</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/PickATaxi\tuktuk.php">Tuk Tuk</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/PickATaxi\car.php">Car</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/PickATaxi\van.php">Van</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -31,9 +31,9 @@
           Other Modes
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="./Other Modes/Boat.php">Boats</a>
-          <a class="dropdown-item" href="./Other Modes/Safari Jeeps.php">Safari Jeeps</a>
-          <a class="dropdown-item" href="./Other Modes/Air.php">Air</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/Other Modes/Boat.php">Boats</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/Other Modes/Safari Jeeps.php">Safari Jeeps</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/Other Modes/Air.php">Air</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -41,10 +41,10 @@
           Destinations
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="./Destinations/Wild Life.php">Wild life</a>
-          <a class="dropdown-item" href="./Destinations/Beaches.php">Beaches</a>
-          <a class="dropdown-item" href="./Destinations/Historical.php">Historical</a>
-          <a class="dropdown-item" href="./Destinations/Waterfalls.php">Waterfalls</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/Destinations/Wild Life.php">Wild life</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/Destinations/Beaches.php">Beaches</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/Destinations/Historical.php">Historical</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/Destinations/Waterfalls.php">Waterfalls</a>
 
         </div>
       </li>
@@ -53,8 +53,8 @@
           Eat
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="./Eat/resturant.php">Restuarants</a>
-          <a class="dropdown-item" href="./Eat/pub.php">Pub</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/Eat/resturant.php">Restuarants</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/Eat/pub.php">Pub</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -62,8 +62,8 @@
           Shoppings
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="./Shoppings/clothes.php">Clothes</a>
-          <a class="dropdown-item" href="./Shoppings/supermarket.php">Super Markets</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/Shoppings/clothes.php">Clothes</a>
+          <a class="dropdown-item" href="/tourismRouteproject-2/Shoppings/supermarket.php">Super Markets</a>
         </div>
       </li>
     </ul>
