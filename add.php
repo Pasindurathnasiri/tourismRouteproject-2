@@ -3,13 +3,13 @@
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active  d-flex justify-content-end">
-        <img class="d-block"  src="images/gadd.png" alt="Second slide">
+        <img class="d-block"  src="images/gadd.png" alt="Second slide"> <!-- img -->
       </div>
       <div class="carousel-item  d-flex justify-content-end">
-        <img class="d-block"  src="images/23-232752_beautiful-sri-lanka-archive-sri-lanka-tourism-hd.jpg" alt="First slide">
+        <img class="d-block"  src="images/23-232752_beautiful-sri-lanka-archive-sri-lanka-tourism-hd.jpg" alt="First slide"> <!-- img -->
       </div>
       <div class="carousel-item  d-flex justify-content-end" >
-        <img class="d-block"  src="images/sri-lanka-photos-0152.jpg.optimal.jpg" alt="Third slide">
+        <img class="d-block"  src="images/sri-lanka-photos-0152.jpg.optimal.jpg" alt="Third slide"> <!-- img -->
       </div>
     </div>
   </div> 
@@ -21,13 +21,13 @@
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active d-flex justify-content-end">
-        <img class="d-block"  src="images/gadd.png" alt="Second slide">
+        <img class="d-block"  src="images/gadd.png" alt="Second slide"> <!-- img -->
       </div>
       <div class="carousel-item d-flex justify-content-end">
-        <img class="d-block"  src="images/23-232752_beautiful-sri-lanka-archive-sri-lanka-tourism-hd.jpg" alt="First slide">
+        <img class="d-block"  src="images/23-232752_beautiful-sri-lanka-archive-sri-lanka-tourism-hd.jpg" alt="First slide"> <!-- img -->
       </div>
       <div class="carousel-item d-flex justify-content-end" >
-        <img class="d-block"  src="images/sri-lanka-photos-0152.jpg.optimal.jpg" alt="Third slide">
+        <img class="d-block"  src="images/sri-lanka-photos-0152.jpg.optimal.jpg" alt="Third slide"> <!-- img -->
       </div>
     </div>
   </div> 
@@ -39,13 +39,13 @@
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active  d-flex justify-content-end">
-          <img class="d-block"  src="images/gadd.png" alt="Second slide">
+          <img class="d-block"  src="images/gadd.png" alt="Second slide"> <!-- img -->
       </div>
       <div class="carousel-item  d-flex justify-content-end">
-          <img class="d-block"  src="images/23-232752_beautiful-sri-lanka-archive-sri-lanka-tourism-hd.jpg" alt="First slide">
+          <img class="d-block"  src="images/23-232752_beautiful-sri-lanka-archive-sri-lanka-tourism-hd.jpg" alt="First slide"> <!-- img -->
       </div>
       <div class="carousel-item  d-flex justify-content-end" >
-          <img class="d-block"  src="images/sri-lanka-photos-0152.jpg.optimal.jpg" alt="Third slide">
+          <img class="d-block"  src="images/sri-lanka-photos-0152.jpg.optimal.jpg" alt="Third slide"> <!-- img -->
       </div>
     </div>
   </div>
@@ -57,13 +57,13 @@
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active d-flex justify-content-end">
-        <img class="d-block"  src="images/gadd.png" alt="Second slide">
+        <img class="d-block"  src="images/gadd.png" alt="Second slide"> <!-- img -->
       </div>
       <div class="carousel-item d-flex justify-content-end">
-        <img class="d-block" src="images/23-232752_beautiful-sri-lanka-archive-sri-lanka-tourism-hd.jpg" alt="First slide">
+        <img class="d-block" src="images/23-232752_beautiful-sri-lanka-archive-sri-lanka-tourism-hd.jpg" alt="First slide"> <!-- img -->
       </div>
       <div class="carousel-item d-flex justify-content-end" >
-        <img class="d-block" src="images/sri-lanka-photos-0152.jpg.optimal.jpg" alt="Third slide">
+        <img class="d-block" src="images/sri-lanka-photos-0152.jpg.optimal.jpg" alt="Third slide"> <!-- img -->
       </div>
     </div>
   </div> 
@@ -73,8 +73,13 @@
 <!-- styles start -->
 <style>
   img{
-    width: 100%;
+    width: 99%;
     height: 125px;
     object-fit: cover;
+  }
+
+  .carousel-inner{
+    padding-top:5px;
+    border: 3px solid gold;
   }
 </style>

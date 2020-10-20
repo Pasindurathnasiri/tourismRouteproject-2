@@ -10,36 +10,56 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     </head>
     
+    <!-- body begin -->
     <body style="font-family: Arial, Helvetica, sans-serif;">
+
+        <!-- corosal start -->
         <div class="col-md-12 d-flex justify-content-around" style ="margin: 0; padding: 0;">
             <?php
                 include("courosal.php");
             ?>
         </div>
+        <!-- corosal end -->
+
+        <!-- top bar start -->
         <div id="navbar" >
             <?php
                 include("sidebar.php");
             ?>
         </div>
+        <!-- top bar end -->
 
-        <div class="col-md-12  d-flex justify-content-around" >
-        <div class="col-md-6">
-            <?php
-                include("login.php");
-            ?>
-        </div>
-            <div class="col-md-3" style="height: 100%;">
+        <!-- content start -->
+        <div class="col-md-12  d-flex justify-content-between" style="padding: 0; margin: 0;" >
+            <div class="col-md-1"> 
+            <!-- nothing here -->
+            </div>
+
+            <!-- login start -->
+            <div class="col-md-6">
+                <?php
+                    include("login.php");
+                ?>
+            </div>
+            <!-- login end -->
+
+            <!-- add start -->
+            <div class="col-md-3 justify-content-rite" style="height: 100%; ">
                 <?php
                     include("add.php");
                 ?>
             </div>
+            <!-- add end -->
         </div>
+        <!-- content end -->
 
+        <!-- footer start -->
         <div id="footer" >
             <?php
                 include("footer.php");
             ?>
         </div>
+        <!-- footer end -->
     </body>
 
 
