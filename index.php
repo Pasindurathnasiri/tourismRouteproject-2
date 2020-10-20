@@ -30,26 +30,26 @@
         <!-- top bar end -->
 
         <!-- content start -->
-        <div class="col-md-12  d-flex justify-content-between" style="padding: 0; margin: 0;" >
-            <div class="col-md-1"> 
-            <!-- nothing here -->
-            </div>
+        <div class="row" style="padding: 10px; margin: 0;">
+            <div class="col-md-12  d-flex justify-content-between"  >
+                
 
-            <!-- login start -->
-            <div class="col-md-6">
-                <?php
-                    include("login.php");
-                ?>
-            </div>
-            <!-- login end -->
+                <!-- login start -->
+                <div class="col-md-6">
+                    <?php
+                        include("login.php");
+                    ?>
+                </div>
+                <!-- login end -->
 
-            <!-- add start -->
-            <div class="col-md-3 justify-content-rite" style="height: 100%; ">
-                <?php
-                    include("add.php");
-                ?>
+                <!-- add start -->
+                <div class="col-md-3" style="height: 100%;">
+                    <?php
+                        include("add.php");
+                    ?>
+                </div>
+                <!-- add end -->
             </div>
-            <!-- add end -->
         </div>
         <!-- content end -->
 

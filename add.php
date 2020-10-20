@@ -74,12 +74,15 @@
 <style>
   img{
     width: 99%;
-    height: 125px;
+    height: 150px;
     object-fit: cover;
   }
 
   .carousel-inner{
-    padding-top:5px;
+    padding:5px;
     border: 3px solid gold;
+  }
+  .row{
+    padding:5px;
   }
 </style>
