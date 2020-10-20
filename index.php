@@ -23,7 +23,12 @@
         </div>
 
         <div class="col-md-12  d-flex justify-content-around" >
-            <div style="height: 100%; width: 75%">
+        <div class="col-md-6">
+            <?php
+                include("login.php");
+            ?>
+        </div>
+            <div class="col-md-6" style="height: 100%; width: 75%">
                 <?php
                     include("add.php");
                 ?>
