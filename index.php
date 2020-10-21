@@ -10,36 +10,55 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     </head>
     
-    <body style="background-color: silver;font-family: Arial, Helvetica, sans-serif;">
+    <!-- body begin -->
+    <body style="font-family: Arial, Helvetica, sans-serif;">
+
+        <!-- corosal start -->
         <div class="col-md-12 d-flex justify-content-around" style ="margin: 0; padding: 0;">
             <?php
                 include("courosal.php");
             ?>
         </div>
+        <!-- corosal end -->
+
+        <!-- top bar start -->
         <div id="navbar" >
             <?php
                 include("sidebar.php");
             ?>
         </div>
+        <!-- top bar end -->
 
-        <div class="col-md-12  d-flex justify-content-around" >
-        <div class="col-md-6">
-            <?php
-                include("login.php");
-            ?>
-        </div>
-            <div class="col-md-6" style="height: 100%; width: 75%">
-                <?php
-                    include("add.php");
-                ?>
+        <!-- content start -->
+        <div class="row" style="padding: 10px; margin: 0;">
+            <div class="col-md-12  d-flex justify-content-between"  >
+
+                <!-- login start -->
+                <div class="col-md-6">
+                    <?php
+                        include("login.php");
+                    ?>
+                </div>
+                <!-- login end -->
+
+                <!-- add start -->
+                <div class="col-md-3" style="height: 100%;">
+                    <?php
+                        include("add.php");
+                    ?>
+                </div>
+                <!-- add end -->
             </div>
         </div>
+        <!-- content end -->
 
+        <!-- footer start -->
         <div id="footer" >
             <?php
                 include("footer.php");
             ?>
         </div>
+        <!-- footer end -->
     </body>
 
 
