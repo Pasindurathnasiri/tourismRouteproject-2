@@ -14,7 +14,7 @@
     <body style="font-family: Arial, Helvetica, sans-serif;">
 
         <!-- corosal start -->
-        <div">
+        <div class="col-md-12 d-flex justify-content-around" style ="margin: 0; padding: 0;">
             <?php
                 include("courosal.php");
             ?>
