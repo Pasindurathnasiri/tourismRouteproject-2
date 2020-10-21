@@ -17,38 +17,103 @@
                 
                     <div>
                         <?php
-                        include("sidebar.php");
+                        include("../sidebar.php");
                         ?>
                     </div>
                     <br>    
                 
                 <h1>&nbsp;Pick A Tuk-Tuk</h1>
 
+                <div id="googleMap" style="width:100%;height:500px;"></div>
+
+                   <script>
+                   
+                       function myMap() 
+                       {
+                           
+                           var mapProp= 
+                           {
+                               center:new google.maps.LatLng(7.8731,80.7718),
+                               zoom:7,
+                           };
+                           var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+                   
+                           
+                           
+                   
+                           if (navigator.geolocation) 
+                           {
+                               navigator.geolocation.getCurrentPosition(showPosition);
+                           } 
+                       
+                   
+                           var lat ;
+                           var lan ;
+                           
+                           function showPosition(position) 
+                           {
+                               lat = position.coords.latitude;
+                               lan = position.coords.longitude;
+                               console.log(lat + "'" + lan);
+                               var marker = new google.maps.Marker(
+                               {
+                                   position: new google.maps.LatLng(lat,lan),
+                                   map: map,
+                               });
+                               var infowindow = new google.maps.InfoWindow(
+                               {
+                                   content:"My Location"
+                               });
+                   
+                               infowindow.open(map,marker);
+                   
+                               // Zoom to 9 when clicking on marker
+                               google.maps.event.addListener(marker,'click',function() 
+                               {
+                                   map.setZoom(10);
+                                   map.setCenter(marker.getPosition());
+                               });
+                           }
+                           
+                           
+                   
+                       }
+                       
+                   </script>
+                   
+                   <script src="https://maps.googleapis.com/maps/api/js?AIzaSyALVFbw-QwUdNkmunYR2Bt8BoVXhMTYgks&callback=myMap"></script>
+                   
+                   <script>
+                   
+                   </script>
+                   </div>
+
+
                 <div class="hotels">
                 <div class="card text-center" style="width:80% padding:10px; margin:10px; ">
                   <div class="card-body">
-                    <h5 class="card-title">Hotel 1</h5>
+                    <h5 class="card-title">Tuk Tuk 1</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
                 </div>
                 <div class="card text-center" style="width:80% padding:10px; margin:10px;">
                   <div class="card-body">
-                    <h5 class="card-title">Hotel 2</h5>
+                    <h5 class="card-title">Tuk Tuk 2</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
                 </div>
                 <div class="card text-center" style="width:80% padding:10px; margin:10px;">
                   <div class="card-body">
-                    <h5 class="card-title">Hotel 3</h5>
+                    <h5 class="card-title">Tuk Tuk 3</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
                 </div>
                 <div class="card text-center" style="width:80% padding:10px; margin:10px;">
                   <div class="card-body">
-                    <h5 class="card-title">Hotel 4</h5>
+                    <h5 class="card-title">Tuk Tuk 4</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
@@ -58,5 +123,10 @@
      
             
             </div>
+            <div id="footer" >
+            <?php
+                include("../footer.php");
+            ?>
+        </div>
         </body>
     </html>

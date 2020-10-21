@@ -31,7 +31,11 @@
 <body class="hold-transition sidebar-mini layout-fixed">
   
 
-         
+<div>
+                <?php
+                include("../sidebar.php");
+                ?>
+            </div>
                       <form role="form">
                         
                           <div class="card">

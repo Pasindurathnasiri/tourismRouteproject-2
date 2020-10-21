@@ -1,113 +1,88 @@
 <!-- row 1 start -->
-<div class="row" style="height: 15%;">
-
-  <!-- col 1 start -->
-  <div class="col-md-6 d-flex align-self-center flex-column bd-highlight" >
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" style="height:200px" src="images/23-232752_beautiful-sri-lanka-archive-sri-lanka-tourism-hd.jpg" alt="First slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" style="height:200px" src="images/wp1857983.jpg" alt="Second slide">
-        </div>
-        <div class="carousel-item" >
-          <img class="d-block w-100" style="height:200px" src="images/sri-lanka-photos-0152.jpg.optimal.jpg" alt="Third slide">
-        </div>
+<div class="row" >
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active  d-flex justify-content-end">
+        <img class="d-block"  src="images/gadd.png" alt="Second slide"> <!-- img -->
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div> 
-  </div>
-  <!-- col 1 end -->
-
-  <!-- col 2 start -->
-  <div class="col-md-6 d-flex align-self-center flex-column bd-highlight" >
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" style="height:200px" src="images/23-232752_beautiful-sri-lanka-archive-sri-lanka-tourism-hd.jpg" alt="First slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" style="height:200px" src="images/wp1857983.jpg" alt="Second slide">
-        </div>
-        <div class="carousel-item" >
-          <img class="d-block w-100" style="height:200px" src="images/sri-lanka-photos-0152.jpg.optimal.jpg" alt="Third slide">
-        </div>
+      <div class="carousel-item  d-flex justify-content-end">
+        <img class="d-block"  src="images/23-232752_beautiful-sri-lanka-archive-sri-lanka-tourism-hd.jpg" alt="First slide"> <!-- img -->
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div> 
-  </div>
-  <!-- col 2 end -->
+      <div class="carousel-item  d-flex justify-content-end" >
+        <img class="d-block"  src="images/sri-lanka-photos-0152.jpg.optimal.jpg" alt="Third slide"> <!-- img -->
+      </div>
+    </div>
+  </div> 
 </div>
-<!-- row 1 end -->
+  <!-- row 1 end -->
 
 <!-- row 2 start -->
-<div class="row" style="height: 15%;">
-
-  <!-- col 1 start -->
-  <div class="col-md-6 d-flex align-self-center flex-column bd-highlight" >
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" style="height:200px" src="images/23-232752_beautiful-sri-lanka-archive-sri-lanka-tourism-hd.jpg" alt="First slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" style="height:200px" src="images/wp1857983.jpg" alt="Second slide">
-        </div>
-        <div class="carousel-item" >
-          <img class="d-block w-100" style="height:200px" src="images/sri-lanka-photos-0152.jpg.optimal.jpg" alt="Third slide">
-        </div>
+<div class="row" >
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active d-flex justify-content-end">
+        <img class="d-block"  src="images/gadd.png" alt="Second slide"> <!-- img -->
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div> 
-  </div>
-  <!-- col 1 end -->
-
-  <!-- col 2 start -->
-  <div class="col-md-6 d-flex align-self-center flex-column bd-highlight" >
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" style="height:200px" src="images/23-232752_beautiful-sri-lanka-archive-sri-lanka-tourism-hd.jpg" alt="First slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" style="height:200px" src="images/wp1857983.jpg" alt="Second slide">
-        </div>
-        <div class="carousel-item" >
-          <img class="d-block w-100" style="height:200px" src="images/sri-lanka-photos-0152.jpg.optimal.jpg" alt="Third slide">
-        </div>
+      <div class="carousel-item d-flex justify-content-end">
+        <img class="d-block"  src="images/23-232752_beautiful-sri-lanka-archive-sri-lanka-tourism-hd.jpg" alt="First slide"> <!-- img -->
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div> 
-  </div>
-  <!-- col 2 end -->
+      <div class="carousel-item d-flex justify-content-end" >
+        <img class="d-block"  src="images/sri-lanka-photos-0152.jpg.optimal.jpg" alt="Third slide"> <!-- img -->
+      </div>
+    </div>
+  </div> 
 </div>
 <!-- row 2 end -->
+
+<!-- row 3 start -->
+<div class="row" >
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active  d-flex justify-content-end">
+          <img class="d-block"  src="images/gadd.png" alt="Second slide"> <!-- img -->
+      </div>
+      <div class="carousel-item  d-flex justify-content-end">
+          <img class="d-block"  src="images/23-232752_beautiful-sri-lanka-archive-sri-lanka-tourism-hd.jpg" alt="First slide"> <!-- img -->
+      </div>
+      <div class="carousel-item  d-flex justify-content-end" >
+          <img class="d-block"  src="images/sri-lanka-photos-0152.jpg.optimal.jpg" alt="Third slide"> <!-- img -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- row 3 end -->
+
+  <!-- row 4 start -->
+<div class="row" >
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active d-flex justify-content-end">
+        <img class="d-block"  src="images/gadd.png" alt="Second slide"> <!-- img -->
+      </div>
+      <div class="carousel-item d-flex justify-content-end">
+        <img class="d-block" src="images/23-232752_beautiful-sri-lanka-archive-sri-lanka-tourism-hd.jpg" alt="First slide"> <!-- img -->
+      </div>
+      <div class="carousel-item d-flex justify-content-end" >
+        <img class="d-block" src="images/sri-lanka-photos-0152.jpg.optimal.jpg" alt="Third slide"> <!-- img -->
+      </div>
+    </div>
+  </div> 
+</div>
+<!-- row 4 end -->
+
+<!-- styles start -->
+<style>
+  img{
+    width: 99%;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .carousel-inner{
+    padding:5px;
+    border: 3px solid gold;
+  }
+  .row{
+    padding:5px;
+  }
+</style>
