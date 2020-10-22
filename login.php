@@ -36,7 +36,10 @@
       }
 
       .card{
+          
+          width:500px;
           margin-top:80px;
+          margin-left:200px;
           padding: 20px;
           padding-bottom: 40px
       }
