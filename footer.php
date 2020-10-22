@@ -23,11 +23,11 @@
                 <h5>Booking</h5>
                 <hr id = "navh5" class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto">
                 <ul class="nav-list">
-                    <li><a class="dropdown-item" href="/tourismRouteproject-2/Bookings\hotels.php">
+                    <li><a  id="d-d-i"class="dropdown-item" href="/tourismRouteproject-2/Bookings\hotels.php">
                         <i class="fas fa-hotel"></i>
                         Hotels</a></li>
-                    <li><a class="dropdown-item" href="/tourismRouteproject-2/Bookings\wildlifehotels.php">WildLife Bunglows</a></li>
-                    <li><a class="dropdown-item" href="/tourismRouteproject-2/Bookings\campsite.php">Camping Sites</a></li>
+                    <li><a  id="d-d-i" class="dropdown-item" href="/tourismRouteproject-2/Bookings\wildlifehotels.php">WildLife Bunglows</a></li>
+                    <li><a  id="d-d-i" class="dropdown-item" href="/tourismRouteproject-2/Bookings\campsite.php">Camping Sites</a></li>
                 </ul>
             </div>
 
@@ -35,9 +35,9 @@
                 <h5 >Pick a Taxi</h5>
                 <hr id = "navh5" class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto">
                 <ul class="nav-list">
-                    <li><a class="dropdown-item" href="/tourismRouteproject-2/PickATaxi\tuktuk.php">Tuk Tuk</a></li>
-                    <li><a class="dropdown-item" href="/tourismRouteproject-2/PickATaxi\car.php">Car</a></li>
-                    <li><a class="dropdown-item" href="/tourismRouteproject-2/PickATaxi\van.php">Van</a></li>
+                    <li><a  id="d-d-i" class="dropdown-item" href="/tourismRouteproject-2/PickATaxi\tuktuk.php">Tuk Tuk</a></li>
+                    <li><a  id="d-d-i" class="dropdown-item" href="/tourismRouteproject-2/PickATaxi\car.php">Car</a></li>
+                    <li><a  id="d-d-i" class="dropdown-item" href="/tourismRouteproject-2/PickATaxi\van.php">Van</a></li>
                 </ul>
             </div>
 
@@ -45,9 +45,9 @@
                 <h5 >Other Modes</h5>
                 <hr id = "navh5" class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto">
                 <ul class="nav-list">
-                    <li><a class="dropdown-item" href="/tourismRouteproject-2/Other Modes/Boat.php">Boats</a></li>
-                    <li><a class="dropdown-item" href="/tourismRouteproject-2/Other Modes/Safari Jeeps.php">Safari Jeeps</a></li>
-                    <li><a class="dropdown-item" href="/tourismRouteproject-2/Other Modes/Air.php">Air</a></li>
+                    <li><a  id="d-d-i" class="dropdown-item" href="/tourismRouteproject-2/Other Modes/Boat.php">Boats</a></li>
+                    <li><a  id="d-d-i" class="dropdown-item" href="/tourismRouteproject-2/Other Modes/Safari Jeeps.php">Safari Jeeps</a></li>
+                    <li><a  id="d-d-i" class="dropdown-item" href="/tourismRouteproject-2/Other Modes/Air.php">Air</a></li>
                 </ul>
             </div>
 
@@ -55,10 +55,10 @@
                 <h5 >Destinations</h5>
                 <hr id = "navh5" class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto">
                 <ul class="nav-list">
-                    <li><a class="dropdown-item" href="/tourismRouteproject-2/Destinations/Wild Life.php">Wild life</a></li>
-                    <li><a class="dropdown-item" href="/tourismRouteproject-2/Destinations/Beaches.php">Beaches</a></li>
-                    <li><a class="dropdown-item" href="/tourismRouteproject-2/Destinations/Historical.php">Historical</a></li>
-                    <li><a class="dropdown-item" href="/tourismRouteproject-2/Destinations/Waterfalls.php">Waterfalls</a></li>
+                    <li><a  id="d-d-i" class="dropdown-item" href="/tourismRouteproject-2/Destinations/Wild Life.php">Wild life</a></li>
+                    <li><a  id="d-d-i" class="dropdown-item" href="/tourismRouteproject-2/Destinations/Beaches.php">Beaches</a></li>
+                    <li><a  id="d-d-i" class="dropdown-item" href="/tourismRouteproject-2/Destinations/Historical.php">Historical</a></li>
+                    <li><a  id="d-d-i" class="dropdown-item" href="/tourismRouteproject-2/Destinations/Waterfalls.php">Waterfalls</a></li>
                     <li></li>
                 </ul>
             </div>
@@ -67,8 +67,8 @@
                 <h5 >Eat</h5>
                 <hr id = "navh5" class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto">
                 <ul class="nav-list">
-                    <li><a class="dropdown-item" href="/tourismRouteproject-2/Eat/resturant.php">Restuarants</a></li>
-                    <li><a class="dropdown-item" href="/tourismRouteproject-2/Eat/pub.php">Pub</a></li>
+                    <li><a  id="d-d-i" class="dropdown-item" href="/tourismRouteproject-2/Eat/resturant.php">Restuarants</a></li>
+                    <li><a  id="d-d-i" class="dropdown-item" href="/tourismRouteproject-2/Eat/pub.php">Pub</a></li>
                 </ul>
             </div>
 
@@ -76,8 +76,8 @@
                 <h5 >shopping</h5>
                 <hr id = "navh5" class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto">
                 <ul class="nav-list">
-                    <li><a class="dropdown-item" href="/tourismRouteproject-2/Shoppings/clothes.php">Clothes</a></li>
-                    <li><a class="dropdown-item" href="/tourismRouteproject-2/Shoppings/supermarket.php">Super Markets</a></li>
+                    <li><a  id="d-d-i" class="dropdown-item" href="/tourismRouteproject-2/Shoppings/clothes.php">Clothes</a></li>
+                    <li><a  id="d-d-i" class="dropdown-item" href="/tourismRouteproject-2/Shoppings/supermarket.php">Super Markets</a></li>
                 </ul>
             </div>
         </div>
@@ -156,6 +156,23 @@
     #navh5{
         width: 60px;
         background-color:gold;
+    }
 
+    #d-d-i{
+        
+        align-content: center;
+        border: 1px solid #2d3246;
+        text-align : center;
+        width:fit-content;
+    }
+
+    #d-d-i:hover{
+        border-radius :15px;
+        background-color : inherit; 
+        color :gold;
+        font-weight : bold; 
+        border: 1px solid gold;
+        text-align : center;
+        width:fit-content;
     }
 </style>
