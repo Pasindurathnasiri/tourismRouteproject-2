@@ -10,6 +10,12 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     </head>
     
+    <style>
+    body{
+        background-image:url("images/background test2(1).jpg");
+        background-size:200%;
+    }
+    </style>
     <!-- body begin -->
     <body style="font-family: Arial, Helvetica, sans-serif;">
 
@@ -42,7 +48,7 @@
                 <!-- login end -->
 
                 <!-- add start -->
-                <div class="col-md-3" style="height: 100%;">
+                <div class="col-md-4" style="height: 100%; ">
                     <?php
                         include("add.php");
                     ?>

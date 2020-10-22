@@ -2,20 +2,21 @@
    #a{
     color:black;
     font-weight:bold;
-    border-bottom: 2px solid gold;
+    border: 1.5px solid gold;
 
   }
 
   #a:hover{
     color:white;
     font-weight:bold;
-    border-bottom: 2px solid black;
+    border: 1.5px solid black;
+    border-radius : 15px;
 
   }
 </style>
 
 
-<nav class="navbar navbar-expand-lg" style="background: gold;">
+<nav class="navbar navbar-expand-lg" style="background: gold; width:100%;">
   <a class="navbar-brand" href="/tourismRouteproject-2" id="a" >Home</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -86,7 +87,7 @@
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-dark my-2 my-sm-0" style="font-weight:bold;" type="submit">Search</button>
+      <button class="btn btn-outline-dark my-2 my-sm-0" style="font-weight:bold; border-radius:15px;" type="submit">Search</button>
     </form>
   </div>
 </nav>
