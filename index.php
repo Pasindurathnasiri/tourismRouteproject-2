@@ -42,7 +42,7 @@
                 <!-- login end -->
 
                 <!-- add start -->
-                <div class="col-md-3" style="height: 100%;">
+                <div class="col-md-4" style="height: 100%; ">
                     <?php
                         include("add.php");
                     ?>
