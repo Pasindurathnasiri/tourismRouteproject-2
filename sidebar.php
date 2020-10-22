@@ -1,16 +1,22 @@
 <style>
-a{
-  color:black;
-  font-weight:bold;
-  
-}
+   #a{
+    color:black;
+    font-weight:bold;
+    border-bottom: 2px solid gold;
 
-a:hover{
-  color:black;
-}
+  }
+
+  #a:hover{
+    color:white;
+    font-weight:bold;
+    border-bottom: 2px solid black;
+
+  }
 </style>
+
+
 <nav class="navbar navbar-expand-lg" style="background: gold;">
-  <a class="navbar-brand" href="/tourismRouteproject-2" style="color:black;">Home</a>
+  <a class="navbar-brand" href="/tourismRouteproject-2" id="a" >Home</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -18,7 +24,7 @@ a:hover{
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" id="a" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Booking
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -28,7 +34,7 @@ a:hover{
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" id="a" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Pick a Taxi
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -38,7 +44,7 @@ a:hover{
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" id="a" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Other Modes
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -48,7 +54,7 @@ a:hover{
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" id="a" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Destinations
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -60,7 +66,7 @@ a:hover{
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" id="a" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Eat
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -69,7 +75,7 @@ a:hover{
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" id="a" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Shoppings
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
