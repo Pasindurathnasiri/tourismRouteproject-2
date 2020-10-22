@@ -63,16 +63,32 @@
             <input type="checkbox" value="remember-me"> Remember me
           </label>
         </div>
-        <button class="btn btn-lg btn-block" style="color:black; background-color:gold;" type="submit">Sign in</button>
+        <button class="btn btn-lg btn-block text bold"  type="submit">Sign in</button>
  
       </form>
     </div>
    
     <style>
-    input.active{
+    input:hover{
       border-color: gold;
+      border-width: 3px;
     
-  }
+    }
+
+    .btn,.btn-lg,.btn-block{
+      color:gold; 
+      background-color:black;
+      border-color: gold;
+      border-width: 3px;
+      
+    }
+
+    .btn:hover,.btn-lg:hover,.btn-block:hover{
+      color:black; 
+      background-color:#f7db44fc;
+      border-color: green;
+      border-width: 3px;
+    }
   </style>
 
   </body>

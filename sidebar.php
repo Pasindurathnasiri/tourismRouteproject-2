@@ -1,16 +1,20 @@
 <style>
-a{
-  color:black;
-  font-weight:bold;
-  
-}
+  a{
+    color:black;
+    font-weight:bold;
+    border-bottom: 4px solid gold;
 
-a:hover{
-  color:black;
-}
+  }
+
+  a:hover{
+    color:white;
+    font-weight:bold;
+    border-bottom: 4px solid black;
+
+  }
 </style>
 <nav class="navbar navbar-expand-lg" style="background: gold;">
-  <a class="navbar-brand" href="/tourismRouteproject-2" style="color:black;">Home</a>
+  <a class="navbar-brand" href="/tourismRouteproject-2">Home</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
