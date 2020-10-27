@@ -86,11 +86,15 @@
         <div class="col-md-12">
             <div class="d-flex justify-content-center">
                 <a href="#">
-                <img id="app" class="google-play" src="https://www.amanabank.lk/images/component_images/play-store.png" title="Play Store" alt="Play Store">
+                    <img id="app" class="google-play" src="images/android.png" title="Play Store" alt="Play Store"></a>
                 <a href="#">
-                <img id="app" class="app-store" src="https://www.amanabank.lk/images/component_images/app-store.png" title="App Store" alt="Play Store">
+                    <img id="app" class="app-store" src="images/ios-app-store-.png" title="App Store" alt="Play Store">
+                </a>
             </div>
-            <p> Our application is not hosted in any third party stores except for the above </p>
+            <div class="d-flex justify-content-center">
+                <p> Our application is not hosted in any third party stores except for the above </p>    
+            </div>
+            
         </div>
     </div>
     <hr style = " background-color : gold;">
@@ -183,6 +187,8 @@
         height:48px;
         width:153px;
         margin-left:15px;
+        border-radius :10px;
+        border:1px solid white;
     }
 </style>
 
