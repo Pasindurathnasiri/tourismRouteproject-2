@@ -41,7 +41,7 @@
                     // initializing geolocation method
                     if (navigator.geolocation) 
                     {
-                        navigator.geolocation.getCurrentPosition(showPosition);
+                        navigator.geolocation.watchPosition(showPosition);
                     } 
                     
                     // variables

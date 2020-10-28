@@ -1,7 +1,7 @@
 <!-- row 1 start -->
 <div class="row" >
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-    <div class="carousel-inner">
+   <div class="carousel-inner" id = "add" >
       <div class="carousel-item active  d-flex justify-content-end">
         <img class="d-block"  src="images/gadd.png" alt="Second slide"> <!-- img -->
       </div>
@@ -19,7 +19,7 @@
 <!-- row 2 start -->
 <div class="row" >
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-    <div class="carousel-inner">
+   <div class="carousel-inner" id = "add" >
       <div class="carousel-item active d-flex justify-content-end">
         <img class="d-block"  src="images/gadd.png" alt="Second slide"> <!-- img -->
       </div>
@@ -37,7 +37,7 @@
 <!-- row 3 start -->
 <div class="row" >
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-    <div class="carousel-inner">
+   <div class="carousel-inner" id = "add" >
       <div class="carousel-item active  d-flex justify-content-end">
           <img class="d-block"  src="images/gadd.png" alt="Second slide"> <!-- img -->
       </div>
@@ -55,7 +55,7 @@
   <!-- row 4 start -->
 <div class="row" >
   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-    <div class="carousel-inner">
+   <div class="carousel-inner" id = "add" >
       <div class="carousel-item active d-flex justify-content-end">
         <img class="d-block"  src="images/gadd.png" alt="Second slide"> <!-- img -->
       </div>
@@ -78,7 +78,8 @@
     object-fit: cover;
   }
 
-  .carousel-inner{
+  #add{
+    background : url("images/leave2.jpg");
     padding:5px;
     border: 3px solid gold;
   }

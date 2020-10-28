@@ -2,14 +2,15 @@
    #a{
     color:black;
     font-weight:bold;
-    border-bottom: 2px solid gold;
+    border: 1.5px solid gold;
 
   }
 
   #a:hover{
     color:white;
     font-weight:bold;
-    border-bottom: 2px solid black;
+    border: 1.5px solid black;
+    border-radius : 15px;
 
   }
 </style>
@@ -86,7 +87,7 @@
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-dark my-2 my-sm-0" style="font-weight:bold;" type="submit">Search</button>
+      <button class="btn btn-outline-dark my-2 my-sm-0" style="font-weight:bold; border-radius:15px;" type="submit">Search</button>
     </form>
   </div>
 </nav>
